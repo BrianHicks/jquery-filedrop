@@ -175,6 +175,10 @@
 				return false;
 			}
 		}
+		
+		if (len == filesRejected) {
+			afterAll();
+		}
 	    
 		function send(e) {
 			
